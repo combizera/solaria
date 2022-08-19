@@ -39,3 +39,9 @@
   grid-column: 6 / 9;
   grid-row: 2;
 }
+@media (max-width: 800px) {
+  .port {
+    background-color: var(--c3);
+    display: none;
+  }
+}

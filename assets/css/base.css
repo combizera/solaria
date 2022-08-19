@@ -9,6 +9,17 @@
   --c1: #b0b0b0;
   --c2: #707070;
   --c3: #404040;
+
+  --gap0: 0px;
+  --gap1: 8px;
+  --gap2: 16px;
+  --gap3: 24px;
+  --gap4: 32px;
+  --gap5: 48px;
+  --gap6: 64px;
+  --gap7: 80px;
+  --gap8: 96px;
+  --gap9: 128px;
 }
 
 body {

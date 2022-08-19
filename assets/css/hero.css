@@ -4,15 +4,14 @@
   font-family: "Saira", sans-serif;
   color: var(--c2);
   font-weight: 300;
-  padding: 80px;
 }
 
 .hero__det {
   padding: 0.5rem 1rem;
   background-color: var(--c0);
   display: inline-flex !important;
-  border-radius: 16px;
   font-family: "Mukta", sans-serif;
+  font-size: 14px;
 }
 
 .hero__tit {
@@ -26,20 +25,6 @@
   font-weight: 500;
 }
 
-.hero__vant {
-  padding: 2rem 0px;
-}
-
-.hero__vant li {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-}
-
-.hero__vant li:first-child {
-  margin-top: 0;
-}
-
 .hero__btn {
   display: inline-flex;
   flex-wrap: wrap;
@@ -47,7 +32,7 @@
 }
 
 .hero__btn a:last-child {
-  margin-left: 1rem;
+  margin-left: var(--gap3);
 }
 
 @media (max-width: 800px) {
@@ -61,11 +46,11 @@
   }
 
   .hero__btn {
-    margin-bottom: 2rem;
-    gap: 1rem;
+    margin-bottom: var(--gap4);
+    gap: var(--gap2);
   }
 
   .hero__btn a:last-child {
-    margin-left: 0rem;
+    margin-left: var(--gap0);
   }
 }
